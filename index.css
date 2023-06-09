@@ -1,0 +1,45 @@
+.between{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.re{
+
+		border: 2px solid blue;
+		padding: 10px;
+		border-radius:10px ;
+		background: yellow;
+
+
+		}
+		span
+		{
+
+			font-size: 30px;
+			font-weight: bolder;
+			font-optical-sizing: ;
+			text-transform: uppercase;
+			margin-top: 0px;
+		}
+		*{
+			font-size: 20px;
+			margin-top:20px ;
+		}
+		#chance,#high{
+			font-size: 30px;
+		}
+		.btn{
+			padding: 10px; margin-left: ; font-size: 60px;
+		}
+		div{
+		 text-align: center;
+		}
+		h1{
+			font-size: 70px;
+		}
+		body
+		{
+			background: #00ffcc;
+		}
+		p{
+			font-family: ;
+		}

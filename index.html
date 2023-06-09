@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>guess number</title>
+	
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	 <header>
+      <h1 id="level" align="center"></h1>
+      <p class="between">(Between 1 to 20)</p>
+      
+      <div>
+		
+<span onclick="restar()" class="re"><i class="fa-solid fa-rotate-right fa-spin"></i>Reload</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<span onclick="retry()" class="re"><i class="fa-solid fa-rotate fa-spin"></i>Retry</span>
+	</div><br/>
+	<div>
+		<button class="btn" >?</button>
+	</div>
+	<table width="100%" >
+		<tr>
+		<th id="chance" width="50%">Total Chance = 10 </th>
+		<th id="high" width="50%">High Score = 0 </th>
+	</tr>
+	</table>
+    </header>
+    <div>
+   <input type="number" name="number" placeholder="enter number" style="margin-left:; width: 130px; padding: 10px;text-align: center;">
+	<button onclick="check()">Check</button><br/>
+</div>
+<p>Created By = Pankaj Dadhich</p>
+</body>
+</html>
+<script src="index.js">
+	
+
+</script>
