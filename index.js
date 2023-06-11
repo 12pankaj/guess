@@ -15,7 +15,8 @@ var level=1;
 			span.style="color:#ff6600;";
 		var chance=10;
 		var high=0;
-
+	var ide=document.getElementById("id")
+	
 		var ch=document.getElementById('chance');
 		var la=document.getElementById('level');
 		var le=document.getElementsByClassName('between');
@@ -23,6 +24,18 @@ var level=1;
 		le[0].innerHTML="(Between 1 to "+level*10+")";
 		la.innerHTML="Level   &nbsp &nbsp"+level;
 		ch.innerHTML="Total Chance = "+chance;
+var id=3;
+		
+	ide.innerHTML=id;
+function idea() {
+	if(id==0)
+	{
+		return 0;
+	}
+	btn[0].innerHTML=secretNumber;
+	ide.innerHTML=id-1;
+	id--;
+}
 		function check() {
 			if(chance==0 )
 			{ ch.innerHTML="Total Chance = "+chance+"<br/> All Chance Complet Please Click Retry Button"; return 0;}
