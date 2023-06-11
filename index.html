@@ -4,17 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>guess number</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 	 <header>
-      <h1 id="level" align="center"></h1>
-      <p class="between">(Between 1 to 20)</p>
-      
+      <h1 id="level" align="center" style="margin: 0px;"></h1>
+	  <table style="margin: 0px;">
+		<tr>
+			<th width="100%" align="left"><p class="between">(Between 1 to 20)</p></th>
+
+			<th><i class="fa-solid fa-xl fa-lightbulb fa-shake" style="color: #e3c816;" onclick="idea()" id="id"></i></th>
+	      </tr>
+
+	 </table>
       <div>
 		
-<span onclick="restar()" class="re"><i class="fa-solid fa-rotate-right fa-spin"></i>Reload</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<span onclick="retry()" class="re"><i class="fa-solid fa-rotate fa-spin"></i>Retry</span>
+<span onclick="restar()" class="re"><i class="fa-solid fa-rotate-right fa-spin"></i>Reload</span> &nbsp &nbsp &nbsp &nbsp <span onclick="retry()" class="re"><i class="fa-solid fa-rotate fa-spin"></i>Retry</span>
 	</div><br/>
 	<div>
 		<button class="btn" >?</button>
@@ -30,7 +37,7 @@
    <input type="number" name="number" placeholder="enter number" style="margin-left:; width: 130px; padding: 10px;text-align: center;">
 	<button onclick="check()">Check</button><br/>
 </div>
-<p>Created By = Pankaj Dadhich</p>
+<h2>Created By = Pankaj Dadhich</h2>
 </body>
 </html>
 <script src="index.js">
